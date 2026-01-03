@@ -1,0 +1,20 @@
+# Qt构建/配置文件
+build/
+*.pro.user
+*.pro.user.*
+CMakeBuild/
+CMakeFiles/
+
+# 编译产物（不用管含义，直接复制）
+*.o
+*.exe
+*.dll
+*.so
+*.lib
+moc_*
+uic_*
+rcc_*
+
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
